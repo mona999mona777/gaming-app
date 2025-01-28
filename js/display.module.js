@@ -9,7 +9,7 @@ export class allgames {
     let all = ``;
     for (let i = 0; i < data.length; i++) {
       // id is a custom attribute....
-      all += ` <div class="col-6 col-md-4 col-xl-3" id='${data[i].id}'>
+      all += ` <div class="col-md-6 col-xl-3" id='${data[i].id}'>
         <div class="card border-style rounded">
        <div class="the-image p-2">
         <img src="${
